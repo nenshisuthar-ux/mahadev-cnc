@@ -555,3 +555,77 @@ gap:15px;
 }
 
 }
+
+.contact-form{
+
+max-width:600px;
+margin:40px auto;
+
+}
+
+.contact-form form{
+
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+.contact-form input{
+
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+
+background:#f2f2f2;
+
+}
+
+.contact-form button{
+
+padding:15px;
+
+border:none;
+
+background:#b88a44;
+
+color:white;
+
+font-size:16px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.contact-form button:hover{
+
+transform:translateY(-3px);
+
+}
+
+.card{
+
+animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}

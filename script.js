@@ -215,3 +215,27 @@ alert(
 console.log(
 "MAHADEV CNC Website Loaded Successfully"
 );
+
+const form =
+document.getElementById("customerForm");
+
+if(form){
+
+form.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+const name =
+document.getElementById("name").value;
+
+alert(
+"Thank You " +
+name +
+"! We will contact you soon."
+);
+
+form.reset();
+
+});
+
+}
